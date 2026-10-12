@@ -1,0 +1,5 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo "Pipeline ran for a MERGED PR. commit=$CODEBUILD_RESOLVED_SOURCE_VERSION"
